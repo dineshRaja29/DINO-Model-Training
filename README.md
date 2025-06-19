@@ -12,6 +12,5 @@ This project demonstrates how to fine-tune the [DINO](https://github.com/faceboo
 - Converts CIFAR-10 into a binary classification task
 - Fine-tunes all layers of the pretrained DINO ViT model with an added classification head
 - Implements upsampling of the minority class to handle class imbalance during training
-- Exposure to PyTorch 
-
-
+- Exposure to PyTorch for dataset handling, model building, and training
+- Supports PyTorch model training on GPU using CUDA (NVIDIA) or MPS (Apple Silicon)
